@@ -1,4 +1,3 @@
-import Counter from './Counter';
 import './App.css';
 
 
