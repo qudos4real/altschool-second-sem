@@ -25,7 +25,7 @@ const useCounter = (initialValue) => {
 // }
 
 function Counter() {
-    const quantity = useCounter(0);
+    // const quantity = useCounter(0);
     // const [state, dispatch] = React.useReducer(reducer, { count: 0 });
     return (
         <div>
@@ -36,13 +36,12 @@ function Counter() {
             Quantity: {quantity.count}
 
             <br />
-            {/* <button onClick={() => dispatch({type: "increment"})}>Increase</button> */}
-            {/* <button onClick={() => dispatch({type: "decrement"})}>Decrease</button> */}
-            <button onClick={quantity.increment}>Increase</button>
-            <button onClick={quantity.decrement}>Decrease</button>
-            <button onClick={quantity.reset}>Reset</button>
+            <button onClick={() => dispatch({type: "increment"})}>Increase</button>
+            <button onClick={() => dispatch({type: "decrement"})}>Decrease</button>
+            <button onClick>Decrease</button>
+            <button onClick>Reset</button>
             <br />
-            <input type="number" onChange={(e) => quantity.setValue(e.target.value)} />
+            {/* <input type="number" onChange={(e) => quantity.setValue(e.target.value)} /> */}
 
 
             </h3>
