@@ -1,6 +1,6 @@
-import Counter from './Components/Counter';
+import Counter from './Counter';
 import './App.css';
-import Reducer from './Components/Reducer';
+import Reducer from './Reducer';
 
 
 
@@ -11,6 +11,7 @@ function App() {
     <h1>
       A simple React Counter
     </h1>
+    <Counter />
     <Counter />
     <Reducer />
     </>

@@ -1,6 +1,6 @@
-import Counter from './Components/Counter';
+import Counter from './hooks/Counter';
 import './App.css';
-import Reducer from './Components/Reducer';
+import Reducer from './hooks/Reducer';
 
 
 
