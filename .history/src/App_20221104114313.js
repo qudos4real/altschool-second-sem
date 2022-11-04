@@ -3,7 +3,7 @@ import Counter from './Components/Counter';
 import './App.css';
 import Reducer from './Components/Reducer';
 import Home from './Components/Home';
-import NotFound from './Components/NotFound';
+import Error from './Components/NotFound';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 
 
@@ -20,7 +20,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/counter" element={<Counter />} />
         <Route path="/reducer" element={<Reducer />} />
-        <Route path="*" element={<NotFound />} />
+        <Route path="*" element={<Error />} />
       </Routes>
     </Router>
   )
