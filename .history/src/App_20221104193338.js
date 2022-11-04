@@ -33,7 +33,7 @@ function App() {
       <nav>
         <ul>
           <li>
-            <NavLink to="/" end className="link"> 
+            <NavLink to="/" end activeClassName="active" className="link"> 
               Home
             </NavLink>
           </li>
@@ -48,7 +48,7 @@ function App() {
             </NavLink>
           </li>
           <li>
-            <NavLink to="ErrorBoundary" className="link">
+            <NavLink to="ErrorBoundary" activeClassName="active" className="link">
               ErrorBoundary
             </NavLink>
           </li>

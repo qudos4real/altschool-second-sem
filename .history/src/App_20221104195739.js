@@ -7,7 +7,7 @@ import NotFound from './Components/NotFound';
 import ErrorBoundary from './Components/ErrorBoundary';
 import "./CSS/Counter.css";
 import { useEffect } from 'react';
-import { BrowserRouter as Router, Route, Routes, Link, NavLink } from 'react-router-dom';
+import { Route, Routes, Link, NavLink } from 'react-router-dom';
 
 
 
@@ -29,7 +29,7 @@ function App() {
     // </>
 
     <ErrorBoundary >
-    <Router>
+    {/* <Router> */}
       <nav>
         <ul>
           <li>
@@ -61,7 +61,7 @@ function App() {
         <Route path="ErrorBoundary" element={<ErrorBoundary />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
-    </Router>
+    {/* </Router> */}
     </ErrorBoundary>
   )
 }

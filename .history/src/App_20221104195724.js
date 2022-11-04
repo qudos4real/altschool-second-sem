@@ -29,7 +29,7 @@ function App() {
     // </>
 
     <ErrorBoundary >
-    <Router>
+    {/* <Router> */}
       <nav>
         <ul>
           <li>
@@ -61,7 +61,7 @@ function App() {
         <Route path="ErrorBoundary" element={<ErrorBoundary />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
-    </Router>
+    {/* </Router> */}
     </ErrorBoundary>
   )
 }

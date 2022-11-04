@@ -8,7 +8,7 @@ function Reducer() {
   return (
     <div className="container">
       <h2>Created using a useReducer</h2>
-      <h3 className="label "> Current count: </h3>
+      <h3 className="label "> >Current count: </h3>
       <h3 className="value ">{state.count}</h3>
       <br />
       <div>

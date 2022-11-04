@@ -1,0 +1,16 @@
+import React from "react";
+// import { Outlet } from "react-router-dom";
+
+function Home() {
+  return (
+    <div>
+      <h1>A simple React Counter</h1>
+        <p>Two react counters are created using a custom hook and a useReducer </p>
+        <p>Both counters have the same functionality</p>
+        <p>An error checking page is also included which would indicate if an error is thrown</p>
+        
+    </div>
+  );
+}
+
+export default Home;
