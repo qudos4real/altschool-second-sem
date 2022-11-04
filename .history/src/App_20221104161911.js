@@ -18,7 +18,6 @@ function App() {
   useEffect(() => {
     document.title = "React Counter";
     }, []);
-    
   return (
     <>
     <Home />

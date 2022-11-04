@@ -16,9 +16,8 @@ import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 function App() {
 
   useEffect(() => {
-    document.title = "React Counter";
+    document.title = "React Hooks";
     }, []);
-    
   return (
     <>
     <Home />
