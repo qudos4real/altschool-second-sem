@@ -8,9 +8,7 @@ function App() {
 
   return (
     <>
-    <h1>
-      A simple React Counter
-    </h1>
+    
     <Counter />
     <Reducer />
     </>
