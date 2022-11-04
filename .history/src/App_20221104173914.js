@@ -33,17 +33,17 @@ function App() {
       <nav>
         <ul>
           <li>
-            <NavLink to="/" end activeClassName="active" className="link"> 
+            <NavLink to="/" end activeClassName="active">
               Home
             </NavLink>
           </li>
           <li>
-            <NavLink to="counter" activeClassName="active" className="link">
+            <NavLink to="counter" activeClassName="active">
               Counter
             </NavLink>
           </li>
           <li>
-            <NavLink to="reducer" activeClassName="active" className="link">
+            <NavLink to="reducer" activeClassName="active">
               Reducer
             </NavLink>
           </li>

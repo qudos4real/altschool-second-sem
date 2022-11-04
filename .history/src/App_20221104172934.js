@@ -31,27 +31,9 @@ function App() {
     <ErrorBoundary >
     <Router>
       <nav>
-        <ul>
-          <li>
-            <NavLink to="/" end activeClassName="active" className="link"> 
-              Home
-            </NavLink>
-          </li>
-          <li>
-            <NavLink to="counter" activeClassName="active" className="link">
-              Counter
-            </NavLink>
-          </li>
-          <li>
-            <NavLink to="reducer" activeClassName="active" className="link">
-              Reducer
-            </NavLink>
-          </li>
-        </ul>
-
-        {/* <NavLink to="/" className={(isActive) => isActive? "Active": "NotActive"}>Home</NavLink>
+        <NavLink to="/" className={(isActive) => isActive? "Active": "NotActive"}>Home</NavLink>
         <NavLink to="/counter" className={(isActive) => isActive? "Active": "NotActive"}>Counter</NavLink>
-        <NavLink to="/reducer" className={(isActive) => isActive? "Active": "NotActive"}>Reducer</NavLink> */}
+        <NavLink to="/reducer" className={(isActive) => isActive? "Active": "NotActive"}>Reducer</NavLink>
       </nav>
       <Routes>
         <Route path="/" element={<Home />} />
