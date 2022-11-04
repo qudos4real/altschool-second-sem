@@ -21,10 +21,10 @@ function Counter() {
         </button>
       </div>
       <br />
-      <input placeholder="Enter a number" className="input "
-        type="number"
+      <input placeholder="Enter a number" className={quantity.value>10? "input red" : "input "} type="number" onMouseLeave={(e) => quantity.setValue(e.target.value)} />
+        {/* type="number"
         onChange={(e) => quantity.setValue(e.target.value)} 
-      />
+      /> */}
     </div>
   );
 }

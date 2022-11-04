@@ -20,7 +20,7 @@ function Reducer() {
       <br />
       <input
         type="number" placeholder="Enter a number" className="input "
-        onMouseLeave={(e) => dispatch({ type: "setValue", value: e.target.value })}
+        onChange={(e) => dispatch({ type: "setValue", value: e.target.value })}
       />
     </div>
   );

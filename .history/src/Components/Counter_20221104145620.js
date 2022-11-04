@@ -7,7 +7,7 @@ function Counter() {
   return (
     <div className="container">
       <h3 className="label ">Quantity: </h3>
-      <h3 className="value ">{quantity.count} </h3>
+      <h3>{quantity.count} </h3>
       <br />
       <div>
         <button className="btn " onClick={quantity.increment}>
@@ -23,7 +23,7 @@ function Counter() {
       <br />
       <input placeholder="Enter a number" className="input "
         type="number"
-        onChange={(e) => quantity.setValue(e.target.value)} 
+        onChange={(e) => quantity.setValue(e.target.value)}
       />
     </div>
   );

@@ -1,5 +1,4 @@
 import React from 'react'
-import "../CSS/Counter.css";
 import image from '../img/404.png'
 
 const NotFound = () => {

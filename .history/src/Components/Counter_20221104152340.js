@@ -9,7 +9,7 @@ function Counter() {
       <h3 className="label ">Quantity: </h3>
       <h3 className="value ">{quantity.count} </h3>
       <br />
-      <div>
+      <div className="smaller-container">
         <button className="btn " onClick={quantity.increment}>
           Increase
         </button>

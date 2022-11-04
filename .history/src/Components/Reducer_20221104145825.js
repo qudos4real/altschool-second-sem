@@ -10,17 +10,18 @@ function Reducer() {
       <h2>Reducer</h2>
       
       <h3 className="label "> Quantity: </h3>
-      <h3 className="value ">{state.count}</h3>
+      <h3>{state.count-1} </h3>
+      <h3>{state.count}</h3>
       <br />
       <div>
-      <button className="btn " onClick={() => dispatch({ type: "increment" })}>Increase</button>
       <button className="btn " onClick={() => dispatch({ type: "decrement" })}>Decrease</button>
       <button className="btn " onClick={() => dispatch({ type: "reset" })}>Reset</button>
+      <button className="btn " onClick={() => dispatch({ type: "increment" })}>Increase</button>
       </div>
       <br />
       <input
         type="number" placeholder="Enter a number" className="input "
-        onMouseLeave={(e) => dispatch({ type: "setValue", value: e.target.value })}
+        onChange={(e) => dispatch({ type: "setValue", value: e.target.value })}
       />
     </div>
   );

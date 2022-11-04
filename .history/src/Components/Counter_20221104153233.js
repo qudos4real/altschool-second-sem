@@ -23,7 +23,7 @@ function Counter() {
       <br />
       <input placeholder="Enter a number" className="input "
         type="number"
-        onChange={(e) => quantity.setValue(e.target.value)} 
+        onMouseEnter={(e) => quantity.setValue(e.target.value)} 
       />
     </div>
   );
