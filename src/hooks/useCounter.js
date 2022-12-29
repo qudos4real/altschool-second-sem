@@ -12,7 +12,9 @@ export const useCounter = (initialValue) => {
         setCount(initialValue);
     };
     const setValue = (value) => {
-        setCount(value);
-    };
-    return { count, increment, decrement, reset, setValue };
+        // set the count to 0 if the value is empty or less than 0
+        setCount(value <= 0 ? 0 : value === "" ? 0 : value);
+            };
+
+    return { count, increment, decrement, reset, setValue, };
 };

@@ -11,8 +11,6 @@ import { BrowserRouter as Router, Route, Routes, NavLink } from 'react-router-do
 
 
 
-
-
 function App() {
 
   useEffect(() => {
